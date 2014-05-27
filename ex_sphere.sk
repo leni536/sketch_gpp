@@ -1,0 +1,10 @@
+<#include "lib/sphere_shaded.skh">
+<#include "lib/cube.skh">
+
+
+<#sphere (0,0,0)|2.5>
+
+
+global {
+	language tikz
+}

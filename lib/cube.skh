@@ -1,0 +1,18 @@
+<#ifndef CUBE_H>
+<#define CUBE_H>
+
+<#define cube|
+{
+	def l #1
+	put { translate([-l/2,-l/2,-l/2]) }
+	{
+		line (0,0,0) (0,0,l)
+		line (0,l,0) (0,l,l)
+		line (l,l,0) (l,l,l)
+		line (l,0,0) (l,0,l)
+		line (0,0,0) (0,l,0) (l,l,0) (l,0,0) (0,0,0)
+		line (0,0,l) (0,l,l) (l,l,l) (l,0,l) (0,0,l)
+	}
+}
+>
+<#endif>

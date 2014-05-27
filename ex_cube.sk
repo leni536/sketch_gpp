@@ -1,0 +1,8 @@
+<#include "lib/cube.skh">
+
+<#cube 5>
+
+global {
+camera rotate(32,(0,0,0),[0,0,1]) then rotate(80,(0,0,0),[1,0,0])
+language tikz
+}

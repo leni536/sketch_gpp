@@ -1,0 +1,13 @@
+<#ifndef SPHERE_SHADED_H>
+<#define SPHERE_SHADED_H>
+
+<#define sphere|
+{
+	def O #1
+	special |
+		\\shade[ball color=blue!10!white] \#1 circle (#2);
+		| [lay=in] (O)
+}
+>
+
+<#endif>
